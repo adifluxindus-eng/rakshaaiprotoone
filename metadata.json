@@ -1,0 +1,8 @@
+{
+  "name": "Raksha AI",
+  "description": "Emergency response and healthcare coordination platform demo with real-time SOS dispatch, hospital management, and live ambulance route tracking.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="RAKSHA SOS"
+        android:textColor="#0F172A"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Direct Emergency Distress Transmitter"
+        android:textColor="#475569"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Your Name (Optional)"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="12dp"
+        android:text="Citizen Android User"
+        android:textColor="#0F172A"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/inputServerUrl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Backend Server URL"
+        android:inputType="textUri"
+        android:paddingHorizontal="12dp"
+        android:text="https://ais-dev-5vjuwqsecdijzs75zftumg-201049482796.asia-east1.run.app"
+        android:textColor="#334155"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnDistress"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#DC2626"
+        android:text="SEND\nDISTRESS\nSOS"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Tap button to capture GPS and notify Admin Control Room."
+        android:textColor="#334155"
+        android:textSize="14sp" />
+
+</LinearLayout>
